@@ -1,0 +1,27 @@
+# /etc/conf.d/medexcoind: config file for /etc/init.d/medexcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/medexcoin/medexcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/medexcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/medexcoind.pid"
+
+# Where to write medexcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/medexcoind"
+
+# User and group to own medexcoind process
+#BITCOIND_USER="medexcoin"
+#BITCOIND_GROUP="medexcoin"
+
+# Path to medexcoind executable
+#BITCOIND_BIN="/usr/bin/medexcoind"
+
+# Nice value to run medexcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+

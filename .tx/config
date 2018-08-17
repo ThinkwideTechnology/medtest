@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[medexcoin.qt-translation-010x]
+file_filter = src/qt/locale/medexcoin_<lang>.ts
+source_file = src/qt/locale/medexcoin_en.ts
+source_lang = en

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Medexcoin
+Comment=Medexcoin P2P Cryptocurrency
+Comment[fr]=Medexcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Medexcoin, eşten eşe kriptografik sanal para birimi
+Exec=medexcoin-qt %u
+Terminal=false
+Type=Application
+Icon=medexcoin128
+MimeType=x-scheme-handler/medexcoin;
+Categories=Office;Finance;
